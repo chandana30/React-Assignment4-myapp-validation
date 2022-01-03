@@ -6,6 +6,7 @@ function User({user}) {
             <table class="table">
                 <thead>
                     <tr>
+                        <th scope="col">Email</th>
                         <th scope="col">FirstName</th>
                         <th scope="col">LatName</th>
                         <th scope="col">Password</th>
@@ -13,6 +14,7 @@ function User({user}) {
                 </thead>
                 <tbody>
                 <tr>
+                <td>{user.email}</td>
                  <td>{user.firstName}</td>
                  <td>{user.lastName}</td>
                  <td>{user.password}</td>
